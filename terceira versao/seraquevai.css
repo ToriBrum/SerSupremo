@@ -1,0 +1,147 @@
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Katibeh&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=SUSE:wght@100..800&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Special+Elite&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Baskervville+SC&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=IM+Fell+DW+Pica+SC&display=swap");
+
+@import url('https://fonts.googleapis.com/css2?family=Lacquer&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Just+Me+Again+Down+Here&family=Nanum+Gothic+Coding:wght@400;700&family=Syne+Mono&display=swap');
+
+/* Estilos essenciais para o corpo da página */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #2b2b2b;
+    background-image: url(assets/myers\ wallpaper.jpg) ;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    font-family: "Lacquer", normal;
+    font-weight: normal;
+    font-size: 3rem;
+    color: white;
+    text-align: center;
+}
+
+h2 {
+    font-family: "Just Me Again Down Here";
+    font-weight: normal;
+    font-size: 3rem;
+    color: black;
+    text-align: start;
+}
+
+p {
+    font-family: "Syne Mono";
+    font-size: medium;
+    font-weight: normal;
+}
+
+/* Estilos para seções e itens de resultado */
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
+
+.header {
+    background: #ffffff;
+    border-radius: 0.6rem;
+    padding: 1rem;
+    margin: auto;
+    margin-bottom: -1rem;
+    box-shadow: 7px 9px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+    width: 60rem;
+    text-align: center;
+    background-image: url('https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExeTNwZzQzNTJxN21hZGNyY3kyZjh6anAxMHpmYTM5emN4NHdkd3poeCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/q4hS8vfKZxKRG/giphy.gif');
+    background-size: cover;
+}
+
+.subtitulo {
+    font-family: "Nanum Gothic Coding";
+    font-size: large;
+    text-align: center;
+    margin-top: -2rem;
+    color: white;
+}
+
+.foto-biografia img {
+    max-width: 10%;
+    height: auto;
+    display: block;
+}
+
+.topicos {
+    font-family: "Syne Mono";
+    font-size: medium;
+    font-weight: bold;
+}
+
+.search-bar button {
+    /* Estilos para o botão */
+    background-color: #a89d01; /* Cor de fundo verde */
+    color: #000000;
+    padding: 0.7rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.search-bar input[type="text"] {
+    border: 2px solid #ccc; /* Borda sólida de 2px */
+    border-radius: 5px; /* Borda arredondada */
+    padding: 0.7rem;
+    width: 30rem; /* Ajuste o tamanho conforme necessário */
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2); /* Sombra para um efeito mais 3D */
+    background-image: url(assets/7373.jpg); /* Substitua pela sua imagem */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.listas {
+    display: flex;
+    flex-direction: column;
+}
+
+.fundo-texto {
+    background: #ffffff;
+    border-radius: 0.6rem;
+    padding: 2rem;
+    margin-bottom: -1rem;
+    box-shadow: 3px 4px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+    line-height: 100%;
+    width: 40rem;
+}
+
+audio {
+    display: none; /* Oculta o player */
+}
+
+/* Estilos para links */
+a {
+    font-family: "IM Fell DW Pica SC";
+    text-decoration: underline;
+    color: #000;
+}
+
+/* Estiliza o rodapé da página */
+footer {
+    background-color: #6e6e6e;
+    color: #000;
+    text-align: center;
+    padding: 1rem;
+}
